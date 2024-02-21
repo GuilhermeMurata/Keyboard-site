@@ -3,9 +3,93 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Keyboard-diy</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!---Remix Icons--->
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"
+
+    <!---Font google--->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <header>
+        <div class="container">
+            <h1>Akko</h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#Product">Produtos</a>
+                    </li>
+                    <li>
+                        <a href="#Contact">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="Product">
+        <div class="container">
+            <img class="apresentation" src="./img/akko-home.PNG" alt="Home image">
+            <h2>Produtos</h2>
+            <div class="section-products">
+                <ul>
+                    <img src="./img/keyboard.PNG" alt="Keyboard">
+                    <img src="./img/switches.PNG" alt="Switch">
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="Contact">
+        <div class="container">
+            <h2>Contato</h2>
+            <div class="contact-methods">
+                <div>
+                    <h3>Fale conosco</h3>
+                    <form action="#">
+                        <input type="text" placeholder="Seu nome" required>
+                        <input type="email" placeholder="Seu email" required>
+                        <input type="tel" placeholder="Seu telefone (opcional)">
+                        <textarea placeholder="Sua mensagem" required></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                <h3>Nos acompanhe</h3>
+                <ul class="social-links">
+                    <li>
+                        <i class="ri-facebook-circle-fill"></i>
+                        <a href="#">Facebook</a>
+                    </li>
+                    <li>
+                        <i class="ri-instagram-fill"></i>
+                        <a href="#">Instagram</a>
+                    </li>
+                    <li>
+                        <i class="ri-youtube-fill"></i>
+                        <a href="#">Youtube</a>
+                    </li>
+                </ul>
+                </div>
+                <div>
+                    <h3>Venha até nós</h3>
+                    <p>
+                        Rua Akko n969, vila diy - São Paulo SP
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p>
+                &copy; Akko keyboards - Todos os direitos reservados - 2024
+            </p>
+        </div>
+    </footer>
 </body>
 </html>
